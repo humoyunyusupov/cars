@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.buttons {
+  padding: 10px;
+  border: 1px;
+  border-radius: 5px;
+  color: white;
+}
+
+.button-blue {
+  background-color: blue;
+}
+.button-blue:active {
+  box-shadow: 0 0 1px 1px rgb(3, 3, 144);
+}
+.button-blue:hover {
+  background-color: rgba(2, 2, 181, 0.859);
+}
+
+.button-grey {
+  background-color: grey;
+}
+.button-grey:active {
+    box-shadow: 0 0 1px 1px rgb(78, 77, 77)
+  }
+  .button-grey:hover {
+    background-color: rgb(78, 77, 77)
+  }
+
+.button-green {
+  background-color: green;
+}
+.button-green:active {
+    box-shadow: 0 0 1px 1px rgb(1, 98, 1)
+  }
+  .button-green:hover {
+    background-color: rgb(1, 98, 1)
+  }
+.button-danger {
+  background-color: red;
+}
+.button-danger:active {
+    box-shadow: 0 0 1px 1px rgb(148, 2, 2)
+  }
+  .button-danger:hover {
+    background-color: rgb(148, 2, 2)
+  }
+
+.buttons-two {
+  padding: 10px;
+  border: 1 px solid black;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.buttons-two:hover {
+  color: white;
+}
+.button-blue-two {
+  border-color: blue;
+  color: blue;
+}
+.button-blue-two:hover {
+  background-color: blue;
+}
+.button-grey-two {
+  border-color: grey;
+  color: grey;
+}
+.button-grey-two:hover {
+  background-color: grey;
+}
+.button-green-two {
+  border-color: green;
+  color: green;
+}
+.button-green-two:hover {
+  background-color: green;
+}
+.button-danger-two {
+  border-color: red;
+  color: red;
+}
+.button-danger-two:hover {
+  background-color: red;
+}
